@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Clothing Store</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+<nav class="navbar">
+  <a href="#" class="navbar-logo">Ziara Clothing</a>
+  <ul class="navbar-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="../men/men_index.html">Men</a></li>
+    <li><a href="../women/women_index.html">Women</a></li>
+    <li><a href="../kids/kids_index.html">Kids</a></li>
+    <li><a href="../contact/contact.html">Contact</a></li>
+  </ul>
+  <div class="search-bar">
+    <input type="text" placeholder="Search...">
+  </div>
+  <div class="cart-icon"><a href="../cart/cart.php"><i class="fas fa-shopping-cart" ></i></a></div>
+  <div class="profile-icon"><a href="../profile/profile.html"><i class="fas fa-user"></i></a></div>
+</nav>
+
+
+  <!-- Image Slider -->
+  <div class="slider">
+    <div class="slide active">
+      <img src="../images/alesia-kazantceva-dhD_FiNkuzw-unsplash.jpg" alt="Slide 1">
+      <div class="caption">
+        <h2>Unleash Your Style</h2>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="../images/pexels-gabby-k-7691346.jpg" alt="Slide 2">
+      <div class="caption">
+        <h2>Redefine Elegance</h2>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="../images/tycho-atsma-2A4CxA33aA8-unsplash (1).jpg" alt="Slide 3">
+      <div class="caption">
+        <h2>Everyday Essentials</h2>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+    </div>
+
+    <!-- Arrow Buttons -->
+    <button class="arrow left-arrow" onclick="prevSlide()">&#10094;</button>
+    <button class="arrow right-arrow" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+ 
+  <!-- Trending Products Section -->
+<div class="featured-products">
+    <h2>Trending Products</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="../images/trench coat.jpg" alt="Product 1">
+        <h3>Trench Coat</h3>
+        <p>$109.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="../images/rey oodie.jpg" alt="Product 2">
+        <h3>Grey Hoodie</h3>
+        <p>$39.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="../images/bodycon maxi dress.jpg" alt="Product 3">
+        <h3>Bodycon Maxi Dress</h3>
+        <p>$49.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="../images/2a8d5adead4ee32d96740eba3d840421.jpg" alt="Product 4">
+        <h3>Men's Skeleton Embroidery Jeans</h3>
+        <p>$59.99</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Banner -->
+<div class="hero-banner">
+    <div class="hero-content">
+      <h1>Winter Sale – Up to 50% Off!</h1>
+      <p>Discover the latest trends and save big on all collections.</p>
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
+
+  
+  <!-- Categories Section -->
+<div class="categories-section">
+    <h2>Shop by Category</h2>
+    <div class="categories">
+      <div class="category-card">
+        <img src="../images/men.jpg" alt="Men">
+        <div class="category-overlay">
+          <h3>Men</h3>
+          <a href="../men/men_index.html" class="category-link">Shop Men</a>
+        </div>
+      </div>
+      <div class="category-card">
+        <img src="../images/women.jpg" alt="Women">
+        <div class="category-overlay">
+          <h3>Women</h3>
+          <a href="../women/women_index.html" class="category-link">Shop Women</a>
+        </div>
+      </div>
+      <div class="category-card">
+        <img src="../images/kids.jpg" alt="Kids">
+        <div class="category-overlay">
+          <h3>Kids</h3>
+          <a href="../kids/kids_index.html" class="category-link">Shop Kids</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+      <!-- About Section -->
+      <div class="footer-section about">
+        <h3>About Us</h3>
+        <p>Discover the latest fashion trends and find your perfect style with us. Quality, comfort, and elegance all in one place.</p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Customer Support -->
+      <div class="footer-section support">
+        <h3>Customer Support</h3>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+  
+      <!-- Newsletter -->
+      <div class="footer-section newsletter">
+        <h3>Newsletter</h3>
+        <p>Stay updated with our latest offers and new arrivals!</p>
+        <form action="#">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  
+    <!-- Social Media Links -->
+    <div class="footer-bottom">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      </div>
+      <p>&copy; 2024 FashionStore. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+
+  <script src="home.js"></script>
+</body>
+</html>

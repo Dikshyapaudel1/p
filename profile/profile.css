@@ -1,0 +1,213 @@
+/* General Styles */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+background-color: #333;
+display: flex;
+align-items: center;
+padding: 15px 20px;
+}
+
+.navbar-logo {
+font-size: 24px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.navbar-links {
+list-style-type: none;
+display: flex;
+margin-left: auto;
+padding: 0;
+}
+
+.navbar-links li {
+margin-left: 20px;
+}
+
+.navbar-links li a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar-links li a:hover {
+color: #ff6600; /* Color change on hover */
+border-bottom: 2px solid #ff6600; /* Underline effect */
+}
+
+.search-bar input {
+padding: 5px;
+font-size: 14px;
+border: none;
+border-radius: 5px;
+margin-left: 20px;
+}
+
+.cart-icon, .profile-icon {
+color: #fff;
+font-size: 20px;
+margin-left: 20px;
+cursor: pointer;
+transition: color 0.3s, transform 0.3s;
+}
+
+.cart-icon:hover, .profile-icon:hover {
+color: #ff6600;
+transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Bar */
+/* ... (Navbar CSS remains the same as before) */
+
+/* Profile Container */
+.profile-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Profile Info */
+.profile-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.edit-profile {
+  background-color: #ffffff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-profile:hover {
+  background-color: #2980b9;
+}
+
+/* Profile Tabs */
+.profile-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 15px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Profile Content */
+.profile-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.profile-content.active {
+  display: block;
+}
+
+/* Order List */
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-list h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Addresses */
+.address {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-address,
+.delete-address,
+.add-address {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-address:hover,
+.delete-address:hover,
+.add-address:hover {
+  background-color: #2980b9;
+}
+
+/* Settings */
+.edit-setting,
+.change-password {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-setting:hover,
+.change-password:hover {
+  background-color: #2980b9;
+}

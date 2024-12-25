@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Ziara Clothing</title>
+  <link rel="stylesheet" href="./contact.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Ziara Clothing</a>
+    <ul class="navbar-links">
+      <li><a href="../home/home.html">Home</a></li>
+      <li><a href="../men/men_index.html">Men</a></li>
+      <li><a href="../women/women_index.html">Women</a></li>
+      <li><a href="../kids/kids_index.html">Kids</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="cart-icon"><a href="../cart/cart.html"><i class="fas fa-shopping-cart" ></i></a></div>
+    <div class="profile-icon"><i class="fas fa-user"></i></div>
+  </nav>
+  <div class="back-button">
+    <a href="../home/home.html"><i class="fas fa-arrow-left"></i> </a>
+  </div>
+  <!-- Contact Form Section -->
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="Product Inquiry">Product Inquiry</option>
+          <option value="Order Issue">Order Issue</option>
+          <option value="Returns & Exchanges">Returns & Exchanges</option>
+          <option value="General Inquiry">General Inquiry</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Contact Information Section -->
+  <section class="contact-info">
+    <h3>Our Contact Information</h3>
+    <p><strong>Email:</strong> support@ziaracloning.com</p>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <p><strong>Address:</strong> 123 Fashion Street, City Name, Country</p>
+    <p><strong>Business Hours:</strong> Mon-Fri 9:00 AM - 6:00 PM</p>
+  </section>
+
+  <!-- Google Map Integration -->
+  <section class="store-location">
+    <h3>Find Us Here</h3>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Social Media Links Section -->
+  <section class="social-media">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/ziara_clothing" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/ziara_clothing" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.twitter.com/ziara_clothing" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <h3>Frequently Asked Questions</h3>
+    <div class="faq-item">
+      <h4>How can I track my order?</h4>
+      <p>You will receive an email with tracking information once your order has shipped.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Can I return an item?</h4>
+      <p>Yes, we offer a 30-day return policy for all unused items. Please visit our Returns page for more information.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Ziara Clothing. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
